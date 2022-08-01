@@ -910,11 +910,9 @@ letter-spacing: 0.03em;
   cursor: pointer;
 }
 
-.footer-form-label {
+.form {
   display: flex;
   align-items: center;
-  text-align: center;
-  justify-content: center;
 }
 
 /**
