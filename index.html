@@ -602,7 +602,7 @@
         <div class="footer-form">
           <p class="footer-form-title">Подпишитесь на рассылку</p>
           <form class="form">
-            <label class="footer-form-label">
+            <div class="footer-form-label">
               <input class="footer-form-input" type="email" name="user-emil" placeholder="E-mail" />
               <button class="footer-btn" type="button">
                 Подписаться
@@ -610,7 +610,7 @@
                   <use href="./images/icons.svg#send"></use>
                 </svg>
               </button>
-            </label>
+            </div>
           </form>
         </div>
       </div>
@@ -649,24 +649,21 @@
                 <use href="./images/icons.svg#email"></use>
               </svg>
             </label>
-
             <label class="form-wrap">
               <span class="form-label">Комментарий</span>
               <textarea
                 class="form-message"
-                type="text"
                 name="user-message"
                 rows="5"
                 placeholder="Введите текст"
               ></textarea>
             </label>
           </div>
-
           <label class="form-agreement">
-            <input class="form-checkbox visually-hidden" type="checkbox" name="agreement" />
-            <svg class="form-icon-checkbox" width="16" height="15">
-              <use class="form-icon-uncheck" href="./images/icons.svg#register-icon-uncheck"></use>
-              <use class="form-icon-check" href="./images/icons.svg#register-icon-check"></use>
+            <input class="form-checkbox visuaaly-hidden" type="checkbox" name="agreement" />
+            <svg class="register-icon" width="20" height="20">
+              <use class="register-icon-uncheck" href="./images/icons.svg#icon-uncheck"></use>
+              <use class="register-icon-check" href="./images/icons.svg#icon-check"></use>
             </svg>
             <span class="form-agreement-text"
               >Соглашаюсь с рассылкой и принимаю
